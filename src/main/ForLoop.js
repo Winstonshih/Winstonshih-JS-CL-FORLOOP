@@ -31,7 +31,7 @@ function getSum(){
     {
         sum+=i;
     }
-    resultElement.innerText = sum;
+    return sum;
 }
 
 
