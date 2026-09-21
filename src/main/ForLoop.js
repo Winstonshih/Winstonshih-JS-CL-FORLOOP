@@ -26,21 +26,12 @@ button.onclick = getSum;
  */
 function getSum(){
     let val = parseInt(input.value);
+    let sum=0;
     for(let i=0;i<val;i++)
     {
-        if(val==2)
-        {
-            return 1
-        }
-        if(val==3)
-        {
-            return 3
-        }
-        if(val=4)
-        {
-            return 6
-        }
+        sum+=i;
     }
+    resultElement.innerText = sum;
 }
 
 
